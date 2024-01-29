@@ -1,0 +1,181 @@
+
+
+@font-face {
+    font-family: font1;
+    src: url('../fonts/Audrey-Bold.otf');
+}
+
+.modal-dialog {
+    margin-top: 10%;
+}
+
+.modal-content {
+    background-color: #fff3da;
+    border-radius: 25px;
+    border: 0px;
+}
+
+#logo_1 {
+    width: 30%;
+}
+
+.btn {
+    flex: 1 1 auto;
+    border-radius: 10px;
+}
+
+.btn-1 {
+    background-image: linear-gradient(to right, #ffd666 0%, #ffa021 100%);
+}
+
+.btn-2 {
+    border: 2px solid black;
+    border-color: #ffd768;
+    color: #ffd768;
+}
+
+.btn-2:hover {
+    background-color: #ffd768;
+    color: white;
+}
+
+.btn:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+}
+
+.font-custom01 {
+    font-size: 13px;
+    color: #ef6b33;
+}
+
+.font-custom02 {
+    font-size: 12px;
+    color: #ef6b33;
+}
+
+input[type="checkbox"] {
+    width: 10px;
+    height: 10px;
+    color: #ef6b33;
+}
+
+input[type="text"] {
+    border: none;
+    border: solid 1px #ffd768;
+    border-radius: 10px;
+    color: #ef6b33;
+}
+
+
+input[type="email"] {
+    border: none;
+    border: solid 1px #ffd768;
+    border-radius: 10px;
+    color: #ef6b33;
+}
+
+input[type="password"] {
+    border: none;
+    border: solid 1px #ffd768;
+    border-radius: 10px;
+    color: #ef6b33;
+}
+
+input[type="password"]:focus {
+    color: #ef6b33;
+}
+
+input[type="password"]:hover {
+    color: #ef6b33;
+}
+
+input[type="text"]:focus {
+    color: #ef6b33;
+}
+
+input[type="text"]:hover {
+    color: #ef6b33;
+}
+
+input[type="email"]:focus {
+    color: #ef6b33;
+}
+
+input[type="email"]:hover {
+    color: #ef6b33;
+}
+
+#cont_1 {
+    margin-top: 10%;
+}
+
+#f_b_login {
+    margin-top: 5%;
+}
+
+html {
+    position: cover;
+    background-image: url('../images/background/12.png'), url('../images/background/13.png');
+    background-position: left bottom, right top;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 35% auto, 35% auto;
+}
+
+.field-icon {
+    float: right;
+    margin-right: 10px;
+    margin-top: -27px;
+    position: relative;
+    color: #ef6b33;
+    z-index: 2;
+}
+
+@media only screen and (max-width: 600px) {
+    html {
+        position: cover;
+		background-image: url('../images/background/12.png'), url('../images/background/13.png');
+        background-position: left bottom, right top;
+        background-repeat: no-repeat, no-repeat;
+        background-size: 35% auto, 35% auto;
+    }
+
+    .modal-backdrop {
+        opacity: 0.0 !important;
+    }
+
+    .modal-dialog {
+        position: fixed;
+        top: auto;
+        right: auto;
+        left: auto;
+        width: 100%;
+        height: 55%;
+        padding: 0px;
+        margin: 0px;
+        bottom: 0;
+        background-color: rgba(255, 201, 86, 0.22) !important;
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+        border: 0px;
+
+        /* background-color: transparent; */
+    }
+
+    .modal-content {
+        border: 0px;
+        background-color: transparent;
+    }
+
+    #logo_1 {
+        width: 70%;
+    }
+
+    #cont_1 {
+        margin-top: 30%;
+    }
+
+    #f_b_login {
+        margin-top: 20%;
+    }
+}
